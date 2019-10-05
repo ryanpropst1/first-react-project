@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Created first react app  - a To Do List to understand components state props and destructing.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
