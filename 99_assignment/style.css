@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(181, 219, 181);
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+}
+
+hr {
+  height: 2px;
+  background-color: rgb(173, 106, 19);
+  border: none;
+}
