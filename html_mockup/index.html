@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>HTML and CSS Styling Exercise</title>
+</head>
+
+<body>
+    <div class="dark-grey">
+        <section>
+            <div class="row">
+                <div class="col-md-6 first-col">
+                    <h3>Hi,
+                    </h3>
+                    <h1 class="blue">I'm a Programer</h1>
+                    <h3 class="blue-border-btm">Fullstack Developer</h3><a class="btn btn-social-icon btn-linkedin"><span
+              class="fa fa-linkedin-square"></span></a><a class="btn btn-social-icon btn-github "><span
+              class="fa fa-github-square"></span></a><a class="btn btn-social-icon btn-twitter"><span
+              class="fa fa-twitter-square"></span></a>
+                </div>
+                <div class="col-md-6" id='dog'><img class="dog" src="images/b91.png" alt="" srcset="funky dog picture"></div>
+            </div>
+        </section>
+        <section class="light-grey">
+            <h1 class="blue-border-btm">What I Do</h1>
+            <p>LArt party coloring book mumblecore man braid portland prism trust fund kinfolk. Aesthetic cliche photo booth, gluten-free vape gentrify twee shoreditch four dollar toast etsy chambray four loko ennui pinterest jean shorts. Succulents distillery
+                heirloom, booth kickstarter chia vice. Four loko celiac venmo franzen marfa gochujang. Microdosing edison bulb raw denim bespoke palo santo occupy coloring book affogato chia squid health goth twee vinyl. Af kickstarter seitan brunch stumptown.
+                Kale chips small batch woke, chillwave vaporware cred bicycle rights. IPhone gentrify enamel pin bespoke tofu, microdosing truffaut twee. </p><button type="button" class="btn btn-primary btn1">full
+        resume</button>
+            <button type="button" class="btn btn-link btn2 open-button" onclick="openForm()">contact</button>
+            <div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                    <h1>Contact</h1>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                    <label for="text"><b>Message</b>
+          </label><input type="text" placeholder="Enter Message" name="msg" required>
+                    <button type="submit" class="btn">Send </button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+        </section>
+        <section class="dark-grey">
+            <h1 class="blue-border-btm work">Latest Work</h1>
+            <div class="row work-sect">
+                <div class="col-md-4 grassfeet"><img class="img" src="images/grassfeet.png" alt="" srcset="feet standing in grass"><br>
+                    <h6>Waynes Enviromental</h6>
+                    <p>Website</p>
+                </div>
+                <div class="col-md-4 vanlife"><img class="img" src="images/vanlife.jpeg" alt="" srcset="Van in front of colorful building" title="hover View Project">
+                    <p class="text">View Project</p>
+                    <h6>Right RV</h6>
+                    <p>Mobile</p>
+                </div>
+                <div class="col-md-4 smartphone"><img class="img" src="images/smartphone.png" alt="" srcset="modern smart phone">
+                    <h6>Cover Sharks</h6>
+                    <p>Website</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
